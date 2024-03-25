@@ -4,7 +4,7 @@ public class Usuario {
 
 	private int id;
 	private String nome;
-	private String login;
+	private String email;
 	private String senha;
 	private Boolean isAtivo;
 
@@ -12,10 +12,10 @@ public class Usuario {
 
 	}
 
-	public Usuario(int id, String nome, String login, String senha, Boolean isAtivo) {
+	public Usuario(int id, String nome, String email, String senha, Boolean isAtivo) {
 		this.id = id;
 		this.nome = nome;
-		this.login = login;
+		this.email = email;
 		this.senha = senha;
 		this.isAtivo = isAtivo;
 	}
@@ -36,12 +36,12 @@ public class Usuario {
 		this.nome = nome;
 	}
 
-	public String getLogin() {
-		return login;
+	public String getEmail() {
+		return email;
 	}
 
-	public void setLogin(String login) {
-		this.login = login;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 	public String getSenha() {
